@@ -4,12 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { ContentFilterPipe } from './content-filter.pipe';
+import { SiteListComponent } from './site-list/site-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContentFilterPipe
+    SiteListComponent
   ],
   imports: [
     BrowserModule,
